@@ -1,0 +1,39 @@
+.section1{
+    background-image: url(./Img1.png);
+    height: 500px;
+    padding: 30px;
+    margin: 0%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section2{
+    background-color: black;
+    &:hover{
+        background: radial-gradient(grey ,rgb(230, 221, 221) ,rgb(70, 66, 66));
+        transform: scale(1.1, 1.1)}
+        .coolpeople{
+            color: white;
+            font-style: italic;
+            font-family: "Michroma-Regular";
+            font-size: 100px;
+            text-align: center;
+        }
+    } 
+
+@media screen and (max-width:420px) {
+        .section1{
+        background-image:url(./Img1mq.png);
+        height: 100px;
+        padding: 30px;
+        margin: 0%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        }
+        .coolpeople{
+            font-size: 30px;
+            padding-bottom: 10px;
+        }
+    }
+    

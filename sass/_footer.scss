@@ -1,0 +1,30 @@
+@mixin hofooter ($bgcolor, $borde) {
+    background-color: $bgcolor;
+    border-radius: $borde;
+}
+footer{
+nav{
+    text-align: center;
+    .menu2{
+        background-color:white;
+        padding: 0%;
+        list-style: none;
+        width: 100%;
+        margin: 0% auto;
+        text-align: center;
+        font-weight: bold;
+        .itemfooter{
+            display: inline-block;
+            position: relative;
+            font-size: 1rem;
+            text-align: center;
+            a{color: red;
+            text-decoration: none;
+            display: inline-block;
+            padding: 20px;
+                &:hover{
+                @include hofooter(silver,100%)}}
+         }
+        }
+    }
+}

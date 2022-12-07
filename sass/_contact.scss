@@ -1,0 +1,18 @@
+$fuente: "Michorma-Regular";
+
+.formdecontacto{
+    background-image: url(./contact.jpg);
+    font-family: $fuente;     
+    .contact{
+        font-size: 30px;
+        padding-bottom: 20px;}
+    .formi{
+        padding-bottom: 15px; }
+    .moreinfo{
+        padding-top: 25px;}
+}
+@media screen and (max-width:420px) { 
+    .formdecontacto{
+        background-image:url(./contactbg.jpg);
+    }
+}  

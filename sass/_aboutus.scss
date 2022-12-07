@@ -1,0 +1,120 @@
+
+.whowe{
+    display: inline;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.section3{
+    border: solid 1px black;
+    border-radius: 20px;
+    background-color: silver;
+    margin: 1rem;
+    padding: 2rem;
+    width: 600px;
+    text-align: center;
+    font-family: "Michroma-Regular";
+    color: white;
+    margin-bottom: 30px;
+    padding: 40px;
+    grid-area: section3;
+}
+.Under{
+    font-size: 60px;
+    
+}
+.cloth{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.gang{
+    padding-top: 40px;
+    font-size: 40px;
+    color: black;
+}
+.section{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.prenda{
+    border: solid 15px red;
+    width: 350px;
+    height: 750px;
+    opacity: 0.8;
+    
+}
+.jeans{
+    border: solid 15px red;
+    width: 350px;
+    height: 750px;
+    opacity: 0.8;
+}
+.prenda:hover{
+    opacity: 1;
+    
+}
+    .jeans:hover{
+    @extend .prenda:hover ; 
+    }
+
+ .gang{
+        animation-duration: 10s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+            }
+        50% {
+            opacity: 1;
+            }
+        100% {
+          opacity: 0;
+            }
+    }
+    @media screen and (max-width:420px)  {
+        .whowe {
+          flex-direction: column;
+          margin:35px;
+        }
+        .section3{
+            border: solid 1px black;
+            border-radius: 20px;
+            background-image: url(./whowebg.jpg);
+            width: 350px;
+            text-align: center;
+            font-family: "Michroma-Regular";
+            color: white;
+            margin: 0.1rem;
+
+      }
+      .Under{
+        font-size: 30px;
+       }
+       .cloth{
+        font-size: 30px;
+        padding-bottom: 20px;
+         }
+         .prenda{
+            border: 0px;
+            width: 0px;
+            height: 0px;
+            opacity: 0.8;
+            
+        }
+        .jeans{
+            border: 0px;
+            width: 0px;
+            height: 0px;
+            opacity: 0.8;
+           }
+        .gang { 
+            color: white;
+        }
+        
+     }

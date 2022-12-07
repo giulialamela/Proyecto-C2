@@ -1,0 +1,19 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+@import "body";
+@import "header";          
+@import "footer";
+@import "index";
+@import "clothing";
+@import "aboutus";
+@import "login";
+@import "contact";
+@import "donatenow";
+ 
+@font-face{
+    font-family: "Michroma-Regular";
+    src: url(./Michroma-Regular.ttf);
+}

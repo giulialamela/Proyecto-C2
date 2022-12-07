@@ -44,10 +44,6 @@ body{
     margin-left:0px;
 
 }
-.navbar-toggler{
-    color: aliceblue !important;
-
-}
 .menu .item a:hover{
     color:white !important; 
 }

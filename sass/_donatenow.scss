@@ -1,0 +1,93 @@
+.caja{
+    border: white 2px solid;
+}
+.maindn{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows:1fr 2fr;
+    gap:10px;
+    grid-template-areas: 
+    "ad bc bc"
+    "ad e f";
+    margin: 20px;
+}
+.ad{
+    background-color: rgb(22, 18, 16);
+     grid-area:ad;
+     background-image: url(./img\1DN.webp);
+    }
+
+.imgdn{
+    width: 12cm;
+}
+.bc{
+    background-color: grey;
+    grid-area: bc;
+}
+.donatenow{
+    font-size: 2cm;
+    text-align: center;
+    padding: 50px;
+    font-family:"Michroma-Regular";
+
+}
+.e{
+    background-color: black;
+    grid-area: e;
+}
+.why{
+    font-family: "Michroma-Regular";
+    font-size: 1cm;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.pwhy{
+    font-family: "Michroma-Regular";
+    color: white;
+     text-align: justify;
+     padding-left: 20px;
+     padding-right: 20px;
+}
+
+.f{
+    background-color: black;
+    grid-area: f;
+    background-image: url(./img\2DN.webp);
+}
+.imgdn2{
+    width: 8cm;
+}
+
+@media screen and (max-width:420px) {
+.maindn{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 2fr 0.5fr;
+    gap:10px;
+    grid-auto-flow: row;
+    grid-template-areas: 
+    "ad"
+    "bc"
+    "e"
+    "f";
+    margin: 10px;
+}
+.ad{
+background-image: url(./img\1DN.png);
+
+ }
+.f{
+    background-image: url(./img\2DN.png);
+}
+.imgdn{
+    width: 0cm;
+}
+.imgdn2{
+    width:0cm;
+}
+    .donatenow{
+    font-size: 1.5cm;
+}
+}
