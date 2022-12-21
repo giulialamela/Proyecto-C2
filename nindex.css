@@ -86,19 +86,19 @@ footer nav {
 @media screen and (max-width: 576px) {
   .section1 {
     background-image: url(./assets/Img1mq.png);
-    height: 200px;
-    padding: 30px;
+    height: 75px;
+    padding: 10px;
     margin: 0%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat; }
     .section2 .coolpeople {
-    font-size: 35px;
+    font-size: 15px;
     padding-bottom: 30px;
   margin-bottom: 100px;
 margin-top: 40px;
-margin-left: 20px;
-margin-right: 20px; } }
+margin-left: 2px;
+margin-right: 2px; } }
 
 .mainc {
   display: grid;
@@ -149,7 +149,7 @@ margin-right: 20px; } }
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 35px 35px;
-    margin: 90px;
+    margin: 5px;
     grid-auto-flow: row;
     grid-template-areas: "foto1"
  "foto2"
@@ -234,21 +234,21 @@ margin-right: 20px; } }
 @media screen and (max-width: 576px) {
   .whowe {
     flex-direction: column;
-    margin: 35px;
-  margin-left: 20px; }
+    margin: 10px;
+  ; }
   .section3 {
     border: solid 1px black;
     border-radius: 20px;
     background-image: url(./assets/whowebg.jpg);
-    width: 350px;
+    width: 100px;
     text-align: center;
     font-family: "Michroma-Regular";
     color: white;
     margin: 0.1rem; }
   .Under {
-    font-size: 30px; }
+    font-size: 15px; }
   .cloth {
-    font-size: 30px;
+    font-size: 15px;
     padding-bottom: 20px; }
   .prenda {
     border: 0px;
